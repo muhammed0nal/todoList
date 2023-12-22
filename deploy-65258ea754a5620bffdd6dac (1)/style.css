@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(245, 218, 183) !important;
+}
+li {
+  list-style: none;
+}
+.header {
+  margin-top: 2rem;
+  background-color: rgb(250, 230, 205);
+}
+.header h1 {
+  text-align: center;
+}
+form {
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+form input {
+  width: 50%;
+  height: 30px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 20px;
+}
+form button {
+  width: 10%;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+}
+form button:hover {
+  background-color: antiquewhite;
+}
+.container {
+  background-color: rgb(250, 230, 205);
+  margin-top: 3rem;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.container-top {
+  width: 100%;
+  gap: 1rem;
+  justify-content: center;
+  display: flex;
+}
+.container-top div {
+  cursor: pointer;
+}
+ul li {
+  padding: 15px;
+  border-bottom: 1px solid salmon;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul li button:last-child {
+  margin-right: 100px;
+  width: 10%;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+}
+ul li button:first-child {
+  margin-right: 10px;
+  width: 10%;
+  height: 35px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: black;
+  font-size: 20px;
+}
+label.checked {
+  text-decoration: line-through;
+}
+.container-top div.active {
+  color: rosybrown;
+}
+@media (max-width: 500px) {
+  form input {
+    font-size: 15px;
+  }
+  form button {
+    font-size: 15px;
+  }
+  .container {
+    margin-top: 0rem;
+  }
+  ul li {
+    padding-left: 0;
+  }
+  ul li button:last-child {
+    margin-right: 00px;
+    font-size: 15px;
+  }
+  ul li button:first-child {
+    margin-right: 10px;
+    font-size: 15px;
+  }
+}
